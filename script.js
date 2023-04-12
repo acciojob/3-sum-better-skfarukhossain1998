@@ -24,4 +24,4 @@ var n=arr.length;
 	return ans;
 }
 
-module.exports = threeSum;
+/* module.exports = threeSum; */
