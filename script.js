@@ -7,7 +7,7 @@ var n=arr.length;
 		let end=n-1;
 		while (start<end) {
 			const sum=arr[0]+arr[start]+arr[end];
-			if (Math.abs(sum-target)<Math.abs[ans-target]) {
+			if (Math.abs(target-sum)<Math.abs[target-ans]) {
 				ans=sum;
 			}
 			if (sum<target) {
@@ -24,4 +24,4 @@ var n=arr.length;
 	return ans;
 }
 
-/* module.exports = threeSum; */
+module.exports = threeSum;
